@@ -4,7 +4,7 @@
   "description": "CNN news rss feed.",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha -r jscoverage --covignore .covignore --covout=html --covinject=true test"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,13 @@
   "homepage": "https://github.com/frostme/cnn-news",
   "dependencies": {
     "feedparser": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "expect": "^1.6.0",
+    "istanbul": "^0.3.7",
+    "jscoverage": "^0.5.9",
+    "mocha": "^2.1.0",
+    "should": "^5.1.0"
   }
 }
