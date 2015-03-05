@@ -1,0 +1,27 @@
+{
+  "name": "cnn-news",
+  "version": "1.0.0",
+  "description": "CNN news rss feed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/frostme/cnn-news.git"
+  },
+  "keywords": [
+    "cnn",
+    "news",
+    "rss"
+  ],
+  "author": "M. Elliot Frost",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frostme/cnn-news/issues"
+  },
+  "homepage": "https://github.com/frostme/cnn-news",
+  "dependencies": {
+    "feedparser": "^1.0.0"
+  }
+}
